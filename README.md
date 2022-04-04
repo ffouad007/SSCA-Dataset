@@ -1,2 +1,3 @@
 # SSCA-Dataset
-Dataset used in Situated Space-time Cube Analytics
+
+We implemented a computer vision tool, motion detection, and tracking algorithm for processing video frames and extracting movement data. The position of the image's pixels is calculated and transformed into a top-down, _birds-eye-view_. Then, we measured key points in the video and physical scene to perform perspective transformation from the image to the measurement. With these transformations, we could map the individual movement trajectories to the physical space. Finally, we saved the normalized trajectory data as CSV files and used them to map the extracted data to the a HoloLens 2 device. Unity 3D was used to process the CSV files, generate the STC visualization, as well as build out the interactions and user interfaces. 
